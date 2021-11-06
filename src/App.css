@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: red;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -35,4 +35,48 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+body, html {
+  background-color: #133337;
+}
+
+.container{
+  margin-top: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50%;
+}
+
+.container p{
+  max-width: 80%;
+  padding: 15px;
+  background-color: #f1f1f1;
+  -webkit-box-shadow: 5px 5px 15px 5px #000000;
+  box-shadow: 5px 5px 15px 5px #000000;
+}
+
+.task-adder{
+  display: flex;
+  margin-top: 10px;
+  padding: 5px 0 5px 0;
+  justify-content: space-between;
+}
+
+.container-task{
+  margin: 10px 0 10px 0;
+  padding: 5px 0 5px 0;
+  background-color: rgba(191, 191, 191, 1);
+}
+
+.container-task .task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.buttonClass{
+  margin-left: 20px;
 }
